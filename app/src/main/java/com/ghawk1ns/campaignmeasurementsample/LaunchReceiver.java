@@ -7,6 +7,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.text.TextUtils;
+
 import static com.ghawk1ns.campaignmeasurementsample.CampaignMeasurementApplication.TAG;
 
 public class LaunchReceiver extends BroadcastReceiver {
@@ -25,6 +26,7 @@ public class LaunchReceiver extends BroadcastReceiver {
                 android.util.Log.d(TAG, String.format("LaunchReceiver.onReceive referrer=%s", referrer));
                 SharedPreferences sharedPreferences = SharedPrefManager.getSharedPrefs(context);
                 sharedPreferences.edit().putString(REFERRER, referrer).apply();
+                OttoManager.notifyReferrerReceived(referrer);
             }
         }
     }
