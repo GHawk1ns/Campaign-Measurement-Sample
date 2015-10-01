@@ -10,20 +10,20 @@
 * Url Builder Params:
  * Ad Network: `custom`
  * Package Name: `com.ghawk1ns.campaignmeasurementsample`
- * Campaign Source: `anything`
- * Campaign Medium: `optional`
- * Campaign Term: `optional`
- * Campaign Content: `optional`
- * Campaign Name: `optional`
+ * Campaign Source: `<anything>`
+ * Campaign Medium: `<optional>`
+ * Campaign Term: `<optional>`
+ * Campaign Content: `<optional>`
+ * Campaign Name: `<optional>`
 
 #Sample URL
 * https://play.google.com/store/apps/details?id=com.ghawk1ns.campaignmeasurementsample&referrer=utm_source%3Dsample_campaign%26utm_medium%3Dsample_medium%26utm_term%3Dsample_term%26utm_content%3Dsample_content%26utm_campaign%3Dsample_name
 
 * Sample Params:
- * Ad Network: custom
- * Package Name: com.ghawk1ns.campaignmeasurementsample
- * Campaign Source: sample_campaign
- * Campaign Medium: sample_medium
- * Campaign Term: sample_term
- * Campaign Content: sample_content
- * Campaign Name: sample_name
+ * Ad Network: `custom`
+ * Package Name: `com.ghawk1ns.campaignmeasurementsample`
+ * Campaign Source: `sample_campaign`
+ * Campaign Medium: `sample_medium`
+ * Campaign Term: `sample_term`
+ * Campaign Content: `sample_content`
+ * Campaign Name: `sample_name`
