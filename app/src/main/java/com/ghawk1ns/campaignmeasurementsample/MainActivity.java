@@ -19,12 +19,13 @@ import java.util.regex.Pattern;
 import butterknife.Bind;
 import butterknife.ButterKnife;
 
+import static com.ghawk1ns.campaignmeasurementsample.CampaignMeasurementApplication.TAG;
+
 public class MainActivity extends AppCompatActivity {
 
-    
     public static final String DOCUMENTATION_URL = "https://developers.google.com/analytics/devguides/collection/android/v4/campaigns";
     public static final String URL_BUILDER_URL = "https://developers.google.com/analytics/devguides/collection/android/v4/campaigns#google-play-url-builder";
-
+    
     SharedPreferences sharedPreferences;
     
     @Bind(R.id.documentation)
@@ -39,6 +40,8 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        android.util.Log.d(TAG, "MainActivity.onCreate");
+
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
 
