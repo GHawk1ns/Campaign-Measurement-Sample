@@ -1,3 +1,5 @@
+Test the campaign measurement functionality of google analytics
+
 #Documentation
 * https://developers.google.com/analytics/devguides/collection/android/v4/campaigns
 
