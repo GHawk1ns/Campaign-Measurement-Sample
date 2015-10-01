@@ -1,3 +1,6 @@
+#Documentation
+* https://developers.google.com/analytics/devguides/collection/android/v4/campaigns
+
 #Testing Instructions:
 
 1. Create a link using the URL builder below. 
